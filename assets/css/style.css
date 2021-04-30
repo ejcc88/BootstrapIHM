@@ -23,6 +23,11 @@ a:hover {
   text-decoration: none;
 }
 
+.links,.links:hover{
+  color: #111;
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -1168,6 +1173,7 @@ section {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .doctors .member .pic img {

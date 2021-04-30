@@ -30,6 +30,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/styles_alt.css" rel="stylesheet">
 
 </head>
 
@@ -44,8 +45,8 @@
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto" href="relief.html">Anxiety Relief</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="relief.html">Anxiety Relief</a></li>
                     <li><a class="nav-link scrollto" href="hotline.html">Anxiety Hotline</a></li>
                     <li><a class="nav-link scrollto" href="insomnia.html">End Insomnia</a></li>
                     <li><a class="nav-link scrollto" href="exercise.html">Exercise</a></li>
@@ -84,7 +85,7 @@
                     <div class="member d-flex align-items-start">
                         <div class="pic"><img src="assets/img/relief/nature.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4><a class="nav-link scrollto active" href="index.html">Nature sounds</a></h4>
+                            <h4><a class=" links nav-link scrollto active" href="index.html">Nature sounds</a></h4>
                             <br />
                             <p>Soothing nature sounds.</p>
                         </div>
@@ -101,8 +102,17 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-6 mt-4">
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(./assets/img/relief/nature.jpg)"></div>
+                    <div class="img-text-wrapper">
+                      <div class="logo-wrapper">
+                        <img src="images/logos/shop-hacker.png" alt="">
+                      </div>
+          
+                      <div class="subtitle">Exercise</div>
+                    </div>
+                  </div>
+                <!-- <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start">
                         <div class="pic"><img src="assets/img/relief/meditation.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
@@ -111,7 +121,7 @@
                             <p>Meditate for 10-30 min.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
@@ -151,6 +161,23 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+      
+        portfolioItems.forEach(portfolioItem => {
+          portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem.childNodes[1].classList)
+            portfolioItem.childNodes[1].classList.add('image-blur');
+          });
+      
+          portfolioItem.addEventListener('mouseout', () => {
+            console.log(portfolioItem.childNodes[1].classList)
+            portfolioItem.childNodes[1].classList.remove('image-blur');
+          });
+        });
+      
+      </script>
 
 </body>
 
