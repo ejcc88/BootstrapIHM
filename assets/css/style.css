@@ -29,7 +29,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 #preloader:before {
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: rgb(255, 255, 255);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2c4964;
   white-space: nowrap;
   transition: 0.3s;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid rgb(255, 255, 255);
   padding: 5px 2px;
 }
 
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 991px) {
@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -539,7 +539,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f1f7fd;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -587,7 +587,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #f1f7fd;
+  background-color: #ffffff;
   min-height: 40px;
   margin-top: 120px;
 }
@@ -649,7 +649,7 @@ section {
   padding: 30px;
   background: #1977cc;
   border-radius: 4px;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .why-us .content h3 {
@@ -666,7 +666,7 @@ section {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }
@@ -1159,7 +1159,7 @@ section {
 # Doctors
 --------------------------------------------------------------*/
 .doctors {
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 .doctors .member {
