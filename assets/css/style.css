@@ -1159,7 +1159,7 @@ section {
 # Doctors
 --------------------------------------------------------------*/
 .doctors {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);/* eliminar para puder ter imagem de fundo TODO */
 }
 
 .doctors .member {
