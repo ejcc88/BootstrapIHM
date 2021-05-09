@@ -1172,8 +1172,11 @@ section {
 .doctors .member .pic {
   overflow: hidden;
   width: 180px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  align-content: center;
+  justify-content: center;
 }
 
 .doctors .member .pic img {
@@ -1186,6 +1189,7 @@ section {
 
 .doctors .member .member-info {
   padding-left: 30px;
+  flex: 1;
 }
 
 .doctors .member h4 {
